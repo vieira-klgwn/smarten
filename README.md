@@ -8,3 +8,4 @@ To run the project, to the backend-mock-server folder and run node server.js
 After go to the frontend project and run "npm run dev"
 
 On localhost:3000, this app will be running there.# smarten
+# smarten
