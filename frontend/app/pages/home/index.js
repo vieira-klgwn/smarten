@@ -4,6 +4,7 @@ import FlowChart from "@/app/components/FlowChart";
 import LeakAlert from "@/app/components/LeakAlert";
 
 export default function Home() {
+    
     const [flowRate, setFlowRate] = useState(0);
     const [leakDetected, setLeakDetected] = useState(false);
     const [flowData, setFlowData] = useState([]);
