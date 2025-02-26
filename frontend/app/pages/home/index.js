@@ -27,7 +27,7 @@ export default function Home() {
             <h1 className="text-2xl text-gray-950 font-bold mb-4">Water Flow Monitoring</h1>
             <LeakAlert leakDetected={leakDetected} />
             <FlowChart flowData={flowData} />
-            <p className="mt-4 text-lg">Current Flow Rate: <strong>{flowRate} L/min</strong></p>
+            <p className="mt-4 text-lg text-gray-900">Current Flow Rate: <strong>{flowRate} L/min</strong></p>
         </div>
     );
 }
